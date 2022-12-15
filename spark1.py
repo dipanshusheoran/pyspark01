@@ -10,7 +10,7 @@ spark = SparkSession \
 
 
 columns = ["language","users_count"]
-data = [("Java", "20000"), ("Python", "100000"), ("Scala", "3000").("NodeJS","1234")]
+data = [("Java", "20000"), ("Python", "100000"), ("Scala", "3000"),("NodeJS","1234"),("React","11122")]
 
 df = spark.createDataFrame(data,columns)
 
